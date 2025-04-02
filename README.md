@@ -1,5 +1,5 @@
 
-# LINUX MINT
+# LINUX MINT 22.1
 
 ## APT INSTALL
 ```
@@ -64,8 +64,8 @@ groups
 ```
 
 ## SOFTWARE MANAGER
+- [Sublime Text](https://www.sublimetext.com/docs/linux_repositories.html#apt)
+- [Spotify](https://www.spotify.com/es/download/linux/)
 - Brave
-- Sublime
-- Spotify
 - Transmission
 - VLC
