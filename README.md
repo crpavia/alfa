@@ -6,6 +6,7 @@
 sudo apt-get install git
 sudo apt-get install vim
 sudo apt-get install python3-pip
+sudo apt-get install tree
 ```
 
 ## GIT
@@ -19,6 +20,10 @@ source $HOME/.bash_aliases
 ```
 
 ### MANUAL INSTALL
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
 ```
 cd $HOME/Downloads
 wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
