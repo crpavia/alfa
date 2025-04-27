@@ -19,14 +19,19 @@ cp .bash_aliases $HOME
 source $HOME/.bash_aliases
 ```
 
-### MANUAL INSTALL
+## UV
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
+uv --version
+uv self update
 ```
+
+### MANUAL INSTALL
+
+https://code.visualstudio.com/download
 
 ```
 cd $HOME/Downloads
-wget https://code.visualstudio.com/sha/download?build=stable&os=linux-deb-x64
 sudo dpkg -i code*deb
 ```
 
@@ -38,19 +43,19 @@ sudo dpkg -i google-chrome*deb
 ## DOCKER
 
 ```
-sudo apt-get update
-sudo apt-get install apt-transport-https ca-certificates curl gnupg
+sudo apt update
+sudo apt install apt-transport-https ca-certificates curl gnupg
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg
 
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu noble stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
 ```
-sudo apt-get update
+sudo apt update
 sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin  docker-compose-plugin
 ```
 
-```
+``` 
 sudo systemctl is-active docker
 sudo docker run hello-world
 ```
