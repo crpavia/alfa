@@ -3,10 +3,10 @@
 
 ## APT INSTALL
 ```
-sudo apt-get install git
-sudo apt-get install vim
-sudo apt-get install python3-pip
-sudo apt-get install tree
+sudo apt install git
+sudo apt install vim
+sudo apt install python3-pip
+sudo apt install tree
 ```
 
 ## GIT
