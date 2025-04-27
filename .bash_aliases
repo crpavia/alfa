@@ -20,6 +20,7 @@ alias clar='clear'
 alias cler='clear'
 alias cls='clear'
 alias wl='wc -l'
+alias dfh='df -h .'
 
 ### UBUNTU / LINUX MINT ###
 
