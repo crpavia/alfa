@@ -3,10 +3,12 @@
 
 ## APT INSTALL
 ```
+sudo apt update
+sudo apt install curl
 sudo apt install git
 sudo apt install vim
-sudo apt install python3-pip
 sudo apt install tree
+sudo apt install python3-pip
 ```
 
 ## GIT
