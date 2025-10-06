@@ -1,5 +1,5 @@
 
-# LINUX MINT 22.1
+# UBUNTU 24
 
 ## APT INSTALL
 ```
