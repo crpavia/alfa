@@ -5,12 +5,14 @@ alias rd='rmdir'
 alias ..='cd ..'
 alias ...='cd ..;cd ..'
 alias ....='cd ..;cd ..;cd ..'
+alias dow='cd ~/Downloads'
 
 alias l='ls -F'
 alias la='ls -FA'
 alias ll='ls -Flh'
 alias lla='ls -FlA'
 alias lll='ls -FlA'
+alias treed='tree -d'
 
 alias EXIT='exit'
 alias A='clear'
@@ -20,7 +22,8 @@ alias clar='clear'
 alias cler='clear'
 alias cls='clear'
 alias wl='wc -l'
-alias dfh='df -h .'
+alias dfh='df -h'
+alias duh='du -hs'
 
 alias python='python3'
 alias aptu='sudo apt update'
@@ -41,7 +44,7 @@ alias jup='jupyter lab'
 export COBDOC_DIR='/home/crp/Projects/itp-cobdoc'
 alias cobb='cd $COBDOC_DIR;figlet COBOL;source .venv/bin/activate'
 
-export FLOKZU_DIR='/home/crp/Projects/itp-flokzu'
-alias flo='cd $FLOKZU_DIR;figlet -f slant Flokzu;source .venv/bin/activate'
+export EC2_GPU3=1.2.3.4
+alias gepetto3='ssh -i ~/.ssh/documentador-key.pem ubuntu@$EC2_GPU3'
 
 # FIN
