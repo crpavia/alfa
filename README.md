@@ -1,5 +1,5 @@
 
-# UBUNTU 24
+# UBUNTU / LINUX MINT
 
 ## APT INSTALL
 ```
