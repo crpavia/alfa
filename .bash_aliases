@@ -30,6 +30,7 @@ alias aptu='sudo apt update'
 alias apti='sudo apt install'
 alias apty='sudo apt install --yes'
 alias aptg='sudo apt upgrade'
+alias aptl='sudo apt list --upgradable'
 alias aptr='sudo apt autoremove'
 alias apts='sudo apt search'
 alias aptw='sudo apt show'
@@ -44,7 +45,10 @@ alias jup='jupyter lab'
 export COBDOC_DIR='/home/crp/Projects/itp-cobdoc'
 alias cobb='cd $COBDOC_DIR;figlet COBOL;source .venv/bin/activate'
 
-export EC2_GPU3=1.2.3.4
-alias gepetto3='ssh -i ~/.ssh/documentador-key.pem ubuntu@$EC2_GPU3'
+export EC2_JAPETO=1.2.3.4
+export EC2_GEPETTO=5.6.7.8
+
+alias japeto='ssh  -i ~/.ssh/documentador-key.pem ubuntu@$EC2_JAPETO'
+alias gepetto='ssh -i ~/.ssh/documentador-key.pem ubuntu@$EC2_GEPETTO'
 
 # FIN
