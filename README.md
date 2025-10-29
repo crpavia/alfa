@@ -4,6 +4,7 @@
 ## APT INSTALL
 ```
 sudo apt update
+
 sudo apt install curl
 sudo apt install git
 sudo apt install vim
@@ -24,6 +25,7 @@ source $HOME/.bash_aliases
 ## UV
 ```
 curl -LsSf https://astral.sh/uv/install.sh | sh
+
 uv --version
 uv self update
 ```
@@ -35,6 +37,12 @@ https://code.visualstudio.com/download
 ```
 cd $HOME/Downloads
 sudo dpkg -i code*deb
+```
+
+https://www.cursor.com/download/
+```
+cd $HOME/Downloads
+sudo dpkg -i cursor*deb
 ```
 
 https://www.google.com/chrome/
