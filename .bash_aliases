@@ -39,10 +39,11 @@ alias aptw='sudo apt show'
 alias acti='source .venv*/bin/activate 2>/dev/null || source venv*/bin/activate 2>/dev/null'
 alias dea='deactivate'
 alias pro='cd $HOME/Projects'
+alias lab='cd $HOME/lab'
 alias jup='jupyter lab'
 
 ### PROYECTOS ###
-export COBDOC_DIR='/home/crp/Projects/itp-cobdoc'
+export COBDOC_DIR='$HOME/Projects/itp-cobdoc'
 alias cobb='cd $COBDOC_DIR;figlet COBOL;source .venv/bin/activate'
 
 export EC2_JAPETO=1.2.3.4
@@ -51,4 +52,4 @@ export EC2_GEPETTO=5.6.7.8
 alias japeto='ssh  -i ~/.ssh/documentador-key.pem ubuntu@$EC2_JAPETO'
 alias gepetto='ssh -i ~/.ssh/documentador-key.pem ubuntu@$EC2_GEPETTO'
 
-# FIN
+# FINIS
