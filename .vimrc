@@ -1,5 +1,3 @@
-"" .vimrc
-
 set nocompatible
 set nobackup
 set nowritebackup
