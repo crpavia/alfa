@@ -42,17 +42,4 @@ alias pro='cd $HOME/Projects'
 alias lab='cd $HOME/lab'
 alias jup='jupyter lab'
 
-### PROYECTOS ###
-export COBDOC_DIR='$HOME/Projects/itp-cobdoc'
-alias cobb='cd $COBDOC_DIR;figlet COBOL;source .venv/bin/activate'
-
-### INSTANCIAS EC2 ###
-export EC2_JAPETO=1.2.3.4
-export EC2_ORVIETO=5.6.7.8
-export EC2_GEPETTO=9.10.11.12
-
-alias japeto='ssh  -i ~/.ssh/documentador-key.pem ubuntu@$EC2_JAPETO'
-alias orvieto='ssh  -i ~/.ssh/documentador-key.pem ubuntu@$EC2_ORVIETO'
-alias gepetto='ssh -i ~/.ssh/documentador-key.pem ubuntu@$EC2_GEPETTO'
-
 # FINIS
