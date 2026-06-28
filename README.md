@@ -16,17 +16,17 @@ sudo apt install python3-pip
 ```bash
 git clone https://github.com/crpavia/alfa.git
 
-alias.a=add -A
-alias.b=branch -avv
-alias.cm=commit -m
-alias.last=log -1 HEAD
-alias.lll=log
-alias.ll=log --graph --pretty=format:'%C(green)%cd%C(reset) %C(auto)%h%d%C(reset) %s %C(black)%C(bold)%cr%C(reset)' --date=format:'%y-%m-%d %H:%M'
-alias.l=log --oneline
-alias.llu=log --graph --pretty=format:'%C(green)%cd%C(reset) %C(auto)%h%d%C(reset) %C(cyan)%an%C(reset) %s %C(black)%C(bold)%cr%C(reset)' --date=format:'%y-%m-%d %H:%M'
-alias.s=status
-alias.tree=log --graph --oneline --decorate --all
-alias.treeu=log --graph --oneline --decorate --all --pretty=format:'%C(auto)%h%d%C(reset) %C(cyan)%an%C(reset) %s %C(black)%C(bold)%cr%C(reset)'
+git config --global alias.a=add -A
+git config --global alias.b=branch -avv
+git config --global alias.cm=commit -m
+git config --global alias.last=log -1 HEAD
+git config --global alias.lll=log
+git config --global alias.ll=log --graph --pretty=format:'%C(green)%cd%C(reset) %C(auto)%h%d%C(reset) %s %C(black)%C(bold)%cr%C(reset)' --date=format:'%y-%m-%d %H:%M'
+git config --global alias.l=log --oneline
+git config --global alias.llu=log --graph --pretty=format:'%C(green)%cd%C(reset) %C(auto)%h%d%C(reset) %C(cyan)%an%C(reset) %s %C(black)%C(bold)%cr%C(reset)' --date=format:'%y-%m-%d %H:%M'
+git config --global alias.s=status
+git config --global alias.tree=log --graph --oneline --decorate --all
+git config --global alias.treeu=log --graph --oneline --decorate --all --pretty=format:'%C(auto)%h%d%C(reset) %C(cyan)%an%C(reset) %s %C(black)%C(bold)%cr%C(reset)'
 
 ## MAIN
 cd  alfa
